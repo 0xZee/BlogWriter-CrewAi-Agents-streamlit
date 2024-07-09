@@ -1,16 +1,17 @@
 # 📝 `Blog Writer` Crew AI Agents - Streamlit App 🖋️
-Blog Writer Crew AI Agents to Get `Blog`for a specific `Topic`.
+Blog Writer Crew AI Agents to Get `Blog` based on a specific `Topic`.
 
 ## 📝 Work Flow
-- Ai Crew - 3 Agents :
+- Streamlit Ai Crew - 3 Agents :
 - `CrewAi` : Framework for Agents, Tasks and Tools (2x2 Agents/Tasks)
+- `Callbacks` : To render the Agents processing and final outputs
 - `DuckSearchTools` : Get the informations from DuckDuckGo Search Class
 - `Groq API` : for Inference
 - `llama3` : as LLM
 
 
 ## BLOG WRITER : DuckDuckGo Search & CREW AI
-- Travel Planner assitant to help plan your travel and generate a LLM powered financial reports.
+- Blog Writer assitant to help generate a LLM powered Blog posts based on your topic.
 
 ![CrewAi App WorkFlow](TravelPlanner_screenshot.png)
 
