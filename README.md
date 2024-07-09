@@ -1,6 +1,6 @@
 # 📝 `Blog Writer` Crew AI Agents - Streamlit App 🖋️
-🖋️ Blog Writer Crew AI Agents to Get `Blog` based on a specific `Topic`.
-🤖 Pick your LLM : META's `llama3`, MISTRAL's `Mixtral`, GOOGLE's `Gemma` and `Gemma2` 
+## 🖋️ Blog Writer Crew AI Agents to Get `Blog` based on a specific `Topic`.
+## 🤖 Pick your LLM : META's `llama3`, MISTRAL's `Mixtral`, GOOGLE's `Gemma` and `Gemma2` 
 
 ## 📝 Work Flow
 - Streamlit Ai Crew Agents :
