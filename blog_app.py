@@ -6,7 +6,6 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # ----------------------------------------------------
 
 import streamlit as st
-import sys
 from crewai import Crew, Process
 from blog_agents import BlogAgents, StreamToExpander
 from blog_tasks import BlogTasks
