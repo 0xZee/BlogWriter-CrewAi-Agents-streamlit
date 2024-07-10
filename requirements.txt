@@ -2,3 +2,4 @@ streamlit
 crewai[tools]
 langchain-groq
 duckduckgo-search
+chromadb==0.4.0
