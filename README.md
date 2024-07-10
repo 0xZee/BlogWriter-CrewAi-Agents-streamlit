@@ -2,8 +2,8 @@
 ## 🖋️ Blog Writer Crew AI Agents to Get `Blog` based on a specific `Topic`.
 ## 🤖 Pick your LLM : META's `llama3`, MISTRAL's `Mixtral`, GOOGLE's `Gemma` and `Gemma2` 
 
-## 📝 Work Flow
-- Streamlit Ai Crew Agents :
+## 📝 Streamlit Ai Crew Agents :
+
 - `CrewAi` : Framework for Agents, Tasks and Tools (2x2 Agents/Tasks)
 - `Callbacks` : To render the Agents processing and final outputs
 - `DuckSearchTools` : Get the informations from DuckDuckGo Search Class
