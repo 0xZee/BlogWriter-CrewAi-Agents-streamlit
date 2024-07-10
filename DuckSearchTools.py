@@ -3,8 +3,8 @@ from duckduckgo_search import DDGS
 
 
 class DuckSearchTool:
-    def __init__(self):
-        self.ddgs = DDGS()
+    #def __init__(self):
+        #self.ddgs = DDGS()
 
     @tool("web search")
     def web_search(query):
@@ -41,8 +41,8 @@ class DuckSearchTool:
     @tool("news search")
     def news_search(query):
         """
-        Perform a last news search using DuckDuckGo for the last mounth.
-        Args: query (str): The search query.
+        Useful for Search for last week news for a query topic using DuckDuckGo.
+        Args: query (str): query. (eg : 'query' : 'topic'))
         Returns: list: List of news results, with news's content, date, source, url
         """
         return DDGS().news(query, timelimit="w", max_results=10)
