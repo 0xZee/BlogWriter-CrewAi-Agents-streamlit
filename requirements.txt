@@ -2,4 +2,5 @@ streamlit
 crewai[tools]
 langchain-groq
 duckduckgo-search
+pysqlite3-binary
 
