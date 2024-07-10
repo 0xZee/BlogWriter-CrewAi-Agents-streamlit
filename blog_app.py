@@ -1,9 +1,6 @@
-# To reslove chromadb / pysqlite3-binary issues in Streamlit cloud App Deployement
-# ----------------------------------------------------
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-# ----------------------------------------------------
 
 import streamlit as st
 from crewai import Crew, Process
